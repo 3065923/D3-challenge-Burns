@@ -112,7 +112,7 @@ d3.csv("assets/data/data.csv").then(function(censusData) {
     textGroup.on("click", function(data) {
       toolTip.show(data, this);
     })
-      // onmouseout event
+      // onmouse out event
       .on("mouseout", function(data, index) {
         toolTip.hide(data);
       });
